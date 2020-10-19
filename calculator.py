@@ -112,10 +112,14 @@ class Calculator:
         # Enable element in the windows to be be resizable
         n_rows = 5
         n_columns = 7
+        
         for i in range(n_rows):
             window.grid_rowconfigure(i, weight=1)
+            
         for i in range(n_columns):
             window.grid_columnconfigure(i, weight=1)
+            
+            
         window.mainloop()
 
 
